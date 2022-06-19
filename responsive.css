@@ -1,0 +1,41 @@
+
+@media (min-width:375px) and (max-width:475px){
+   
+   .hamburguer{
+     top: 2rem;
+     right: 6rem;
+   }
+   .banner {
+    top: 25%;
+   }
+   .banner h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+   }
+   
+   .banner p{
+        font-size: 1.5rem;
+        line-height: 0;
+    }
+    .sobre p{
+        font-size: 2rem;
+        text-align: center;
+        margin: -20px;
+    }
+    .cards{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .cards img{
+        width: 20rem;
+        height:20rem;
+    }
+    .titulo h3{
+        font-size: 3rem;
+    }
+    .galeria .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
