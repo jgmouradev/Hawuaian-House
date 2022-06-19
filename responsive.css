@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @media (min-width:375px) and (max-width:500px){
     
@@ -91,3 +92,98 @@
         line-height: 14rem;
     }
 }
+=======
+
+@media (min-width:375px) and (max-width:500px){
+    
+    .img-wrapper{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+   .hamburguer{
+     top: 3rem;
+     right:3rem;
+   }
+   .banner {
+    top: 35%;
+   }
+   .banner h1{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+   }
+   
+   .banner p{
+        font-size: 1.5rem;
+        line-height:3.5rem;
+    }
+    .sobre p{
+        font-size: 2rem;
+        text-align: center;
+        margin: -20px;
+    }
+    .cards{
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    .cards img{
+        width: 20rem;
+        height:20rem;
+    }
+    .grid-image img{
+        width: 20rem;
+        height: 20rem;
+    }
+    .titulo h3{
+        font-size: 3rem;
+    }
+    .galeria .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width:500px) and (max-width:768px){
+    .banner h1{
+        font-size: 6rem;
+        line-height: 4.5rem;
+    }
+    .banner p{
+        line-height: 2rem;
+    }
+    .sobre p{
+        font-size: 3rem;
+        padding: 40px;
+    }
+    .cards img{
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    .banner h1{
+        font-size: 6rem;
+        line-height: 4.5rem;
+    }
+    .banner p{
+        line-height: 8rem;
+    }
+    .sobre p{
+        font-size: 3rem;
+        padding: 40px;
+    }
+    .cards img{
+        width: 25rem;
+        height: 25rem;
+    }
+
+}
+
+@media (min-width:1201px) and (max-width:2560px){
+    .banner p{
+        line-height: 14rem;
+    }
+}
+>>>>>>> 001c523489c62a649ec12586117b7b1b7ce2cfe4
